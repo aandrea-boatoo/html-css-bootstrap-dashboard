@@ -1,0 +1,16 @@
+.img{
+    width: 30px;
+    margin: 15px;
+}
+
+img{
+    width: 100%;
+}
+
+.nav-link{
+    color:white;
+}
+
+.navbar-collapse{
+    flex-grow:0
+}
