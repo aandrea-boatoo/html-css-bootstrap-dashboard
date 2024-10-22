@@ -16,7 +16,7 @@
             </div>
             <nav class="navbar navbar-expand-lg bg-body-tertiary flex-grow-1">
                 <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler position-absolute end-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fa-solid fa-bars"></i>
                     </button>
                     <div class="d-flex justify-content-between flex-grow-1">              
@@ -38,7 +38,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="search">
+                        <div class="search collapse navbar-collapse">
                             <form class="d-flex" role="search">
                                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                                 <button class="btn btn-dark border-light" type="submit">Search</button>
@@ -52,7 +52,7 @@
     <main>
         <div class="container-lg">   
             <div class="row">
-                <div class="col-9">
+                <div class="col-lg-9 col-12">
                     <div class="d-flex justify-content-between my-4">
                         <h2>Catalogo Libri</h2>
                         <button type="button" class="btn btn-primary">aggiungi libro</button>
@@ -61,7 +61,7 @@
                         <thead>
                         <tr>
                             <th scope="col">Titolo</th>
-                            <th scope="col" class="w-25">Data di Prestito</th>
+                            <th scope="col" class="w-25 d-none d-md-table-cell">Data di Prestito</th>
                             <th scope="col">Stato</th>
                             <th class="text-center w-25" scope="col">Azioni</th>
                         </tr>
@@ -180,7 +180,7 @@
                     </table>
                 </div>
                 
-                <div class="right-side col-3">
+                <div class="right-side col-lg-3 col-12">
                     <div class="todo border border-2 rounded mt-4">
                         <h3 class="bg-light border border-light m-0 px-2 rounded-top">Todo</h3>
                         <div class="border p-2">
