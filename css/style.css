@@ -14,3 +14,7 @@ img{
 .navbar-collapse{
     flex-grow:0
 }
+
+#new-book label{
+    font-weight: bold;
+}
